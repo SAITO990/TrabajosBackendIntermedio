@@ -1,0 +1,98 @@
+
+{
+    "Nombre": "Andres",
+    "Apellido": "Reyes",
+    "Edad": 21,
+    "Hobbies": ["Programar","Videojuegos","Ciclismo","Conducir","Entrenar"],
+    "Contacto": {
+        "Correo": "andresrolonreyes@gmail.com",
+        "Telefono": {"Telefono Celular": "3023083883", "Telefono Fijo": "5259806"},
+        "Direccion": "Cra 94j bis #80b 83"
+    },
+
+
+    "productos": [
+        {
+          "nombre": "Arroz",
+          "marca": "Diana",
+          "valor": {
+            "compra": 2000,
+            "venta": 3500
+          },
+          "tipo": "alimento",
+          "inventario": 100
+        },
+        {
+          "nombre": "Jabon",
+          "marca": "Ariel",
+          "valor": {
+            "compra": 1500,
+            "venta": 2500
+          },
+          "tipo": "aseo",
+          "inventario": 50
+        },
+        {
+          "nombre": "Detergente",
+          "marca": "Suavitel",
+          "valor": {
+            "compra": 2500,
+            "venta": 4000
+          },
+          "tipo": "aseo",
+          "inventario": 75
+        },
+        {
+          "nombre": "Gaseosa",
+          "marca": "Coca-Cola",
+          "valor": {
+            "compra": 2000,
+            "venta": 3000
+          },
+          "tipo": "bebida",
+          "inventario": 200
+        },
+        {
+          "nombre": "Aceite",
+          "marca": "Gourmet",
+          "valor": {
+            "compra": 3000,
+            "venta": 5000
+          },
+          "tipo": "alimento",
+          "inventario": 80
+        },
+        {
+          "nombre": "Galletas",
+          "marca": "Festival",
+          "valor": {
+            "compra": 1000,
+            "venta": 2000
+          },
+          "tipo": "alimento",
+          "inventario": 150
+        },
+        {
+          "nombre": "Cerveza",
+          "marca": "Poker",
+          "valor": {
+            "compra": 2500,
+            "venta": 4000
+          },
+          "tipo": "bebida",
+          "inventario": 60
+        },
+        {
+          "nombre": "Crema dental",
+          "marca": "Colgate",
+          "valor": {
+            "compra": 500,
+            "venta": 1000
+          },
+          "tipo": "aseo",
+          "inventario": 120
+        }
+    ]
+}
+
+

@@ -1,0 +1,145 @@
+
+Sumar los siguientes números en el sistema binario.
+a. 1110 + 1001
+b. 101 + 11
+c. 100101 + 1100
+d. 1010011 + 111011
+
+
+Restar los siguientes números en el sistema octal.
+a. 67 - 16
+b. 21 - 5
+c. 36 - 24
+d. 76 - 42
+
+
+Multiplicar los siguientes números en el sistema hexadecimal
+a. A x 3
+b. F x 9
+c. D x E
+d. AA x 11
+
+
+Dividir los siguientes números en binario.
+a. 101010 / 110
+b. 10101 / 11
+c. 101110 / 11
+
+
+Solucion
+
+1.Sumar los siguientes números en el sistema binario.
+
+a. 1110 + 1001 = 10111
+b. 101 + 11 = 1000
+c. 100101 + 1100 = 101001
+d. 1010011 + 111011 = 10001110
+
+
+2.Restar los siguientes números en el sistema octal.
+
+a. 67 - 16 = El resultado de la resta es 51 en octal.
+
+   67
+-  16
+-----
+   51
+
+
+b. 21 - 5 = El resultado de la resta es 14 en octal.
+
+   21
+-   5
+-----
+   14
+
+
+c. 36 - 24 = El resultado de la resta es 12 en octal.
+
+   36
+-  24
+-----
+   12
+
+
+d. 76 - 42 = El resultado de la resta es 34 en octal.
+
+   76
+-  42
+-----
+   34
+
+
+3. Multiplicar los siguientes números en el sistema hexadecimal
+
+a. A x 3 = El resultado de la multiplicación es 2A en hexadecimal.
+
+    A
+x   3
+-----
+   2A
+
+
+b. F x 9 = El resultado de la multiplicación es 87 en hexadecimal.
+
+    F
+x   9
+-----
+   87
+
+
+c. D x E = El resultado de la multiplicación es C6 en hexadecimal.
+
+    D
+x   E
+-----
+   C6
+
+
+d. AA x 11 = El resultado de la multiplicación es B7A en hexadecimal.
+
+   AA
+x  11
+-----
+   B7A
+
+
+4. Dividir los siguientes números en binario.
+
+a. 101010 / 110
+
+1111010
+  --------
+  110 |101010
+      -  110
+      -----
+        1110
+       -  110
+       -----
+         100
+
+
+b. 10101 / 11
+
+1101
+  -----
+  11 |10101
+     - 11
+     ----
+       110
+      - 11
+      ----
+         10
+
+
+c. 101110 / 11
+
+    10011
+  ------
+  11 |101110
+     -  11
+     ------
+        100
+      -  11
+      ------
+         10

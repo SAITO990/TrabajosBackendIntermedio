@@ -1,0 +1,47 @@
+Realizar la conversión de números en el sistema decimal a su representación en los sistemas binario,
+octal y hexadecimal.
+
+1. Convertir los siguientes números del sistema decimal a binario.
+a. 3
+b. 10
+c. 132
+d. 586
+e. 654
+
+2. Convertir los siguientes números del sistema decimal a octal.
+a. 10
+b. 42
+c. 267
+d. 698
+e. 329
+
+3. Convertir los siguientes números del sistema decimal a hexadecimal.
+a. 48
+b. 10
+c. 315
+d. 289
+e. 1920
+
+
+Solucion 
+
+1. 
+a. 3 en binario es 11.
+b. 10 en binario es 1010.
+c. 132 en binario es 10000100.
+d. 586 en binario es 1001001010.
+e. 654 en binario es 1010001110.
+
+2.
+a. 10 en octal es 12.
+b. 42 en octal es 52.
+c. 267 en octal es 413.
+d. 698 en octal es 1252.
+e. 329 en octal es 511.
+
+3. 
+a. 48 en hexadecimal es 30.
+b. 10 en hexadecimal es A.
+c. 315 en hexadecimal es 13B.
+d. 289 en hexadecimal es 121.
+e. 1920 en hexadecimal es 780.

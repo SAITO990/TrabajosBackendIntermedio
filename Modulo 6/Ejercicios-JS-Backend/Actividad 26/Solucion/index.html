@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Hoja de Vida Andres</title>
+</head>
+<body>
+<div class="container">
+    <header>
+       <div class="navbar">
+            <div class="logo"><a href="#">Andres Felipe</a></div>
+            <ul class="links">
+                <li><a href="#" onclick="getPageContent('home')">Home</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Formacion</a></li>
+                <li><a href="#">Experiencia</a></li>
+                <li><a href="#">Herramientas</a></li>
+            </ul>
+            <a href="#" class="action_btn">Contacto</a>
+            <div class="toggle_btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+
+            <div class="dropdown_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Formacion</a></li>
+                <li><a href="#">Experiencia</a></li>
+                <li><a href="#">Herramientas</a></li>
+                <li><a href="#" class="action_btn">Contacto</a></li>
+            </div>
+       </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Hoja de Vida</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing doloribus ex exercitationem</p>
+        </section>
+    </main>
+</div> 
+
+<section id="contenido">
+    
+</section>
+
+<script>
+    const toggleBtn = document.querySelector(".toggle_btn");
+    const toggleBtnIcon = document.querySelector(".toggle_btn i");
+    const dropDownMenu = document.querySelector(".dropdown_menu");
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open');
+        const isOpen = dropDownMenu.classList.contains('open');
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-sharp fa-solid fa-xmark'
+        : 'fa-sharp fa-solid fa-bars'
+    }
+</script>
+<script src="index.js"></script>
+</body>
+</html>
