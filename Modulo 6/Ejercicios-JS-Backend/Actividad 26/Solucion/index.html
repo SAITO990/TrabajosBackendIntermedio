@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
     <title>Hoja de Vida Andres</title>
 </head>
 <body>
@@ -14,22 +14,22 @@
             <div class="logo"><a href="#">Andres Felipe</a></div>
             <ul class="links">
                 <li><a href="#" onclick="getPageContent('home')">Home</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Formacion</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Herramientas</a></li>
+                <li><a href="#" onclick="getPageContent('conocimiento')">Conocimiento</a></li>
+                <li><a href="#" onclick="getPageContent('formacion')">Formacion</a></li>
+                <li><a href="#" onclick="getPageContent('experiencia')">Experiencia</a></li>
+                <li><a href="#" onclick="getPageContent('herramienta')">Herramientas</a></li>
             </ul>
-            <a href="#" class="action_btn">Contacto</a>
+            <a href="#" class="action_btn" onclick="getPageContent('contacto')">Contacto</a>
             <div class="toggle_btn">
                 <i class="fa-sharp fa-solid fa-bars"></i>
             </div>
 
             <div class="dropdown_menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Formacion</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Herramientas</a></li>
+                <li><a href="#" onclick="getPageContent('home')">Home</a></li>
+                <li><a href="#" onclick="getPageContent('conocimiento')">Conocimiento</a></li>
+                <li><a href="#" onclick="getPageContent('formacion')">Formacion</a></li>
+                <li><a href="#" onclick="getPageContent('experiencia')">Experiencia</a></li>
+                <li><a href="#" onclick="getPageContent('herramienta')">Herramientas</a></li>
                 <li><a href="#" class="action_btn">Contacto</a></li>
             </div>
        </div>
@@ -38,13 +38,13 @@
     <main>
         <section id="hero">
             <h1>Hoja de Vida</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing doloribus ex exercitationem</p>
+            <p>Bienvenido, utiliza el menu de arriba para navegar por la pagina <3</p>
         </section>
     </main>
 </div> 
 
 <section id="contenido">
-    
+   
 </section>
 
 <script>
