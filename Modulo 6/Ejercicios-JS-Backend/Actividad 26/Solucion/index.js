@@ -370,10 +370,7 @@ function getPageContent(page){
             break;
         case 'conocimiento':
             contentToReturn = pages.conocimiento;
-            break;
-        default:
-            contentToReturn = pages.home;
-            break;				
+            break;			
     }
     document.getElementById('contenido').innerHTML = contentToReturn; 
 }
